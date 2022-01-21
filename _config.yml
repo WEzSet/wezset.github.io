@@ -1,1 +1,21 @@
 theme: jekyll-theme-modernist
+url: https://wezset.github.io
+timezone: Japan
+encoding: utf-8
+name: WEzSet Official Website
+title: WEzSet - Free Copy & Paste for Example Codes. 
+description: We Compact, We Save.
+github_username: WEzSet
+author: Diamond Youtube
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
+  - jekyll-seo-tag
+
+languages: ['en', 'ja']
+default_lang: 'en'
+exclude_from_localization: ['javascript', 'images', 'css']
+parallel_localization: false
